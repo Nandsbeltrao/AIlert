@@ -1,6 +1,12 @@
-# AIlert 
 
-AIlert é uma aplicação inovadora desenvolvida para oferecer informações e orientações personalizadas de forma segura e discreta. A principal funcionalidade do AIlert é o "Modo Camaleão", que adapta a interface da aplicação conforme o nível de risco detectado clicando na única palavra em rosa no texto , garantindo segurança e discrição para os usuários em situações de vulnerabilidade.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/9e4c3a75-71bb-4fe5-a4a3-b23cce0c5de2" width="300">
+</p>
+
+<br>
+
+ AIlert é uma aplicação inovadora desenvolvida para oferecer informações e orientações personalizadas de forma segura e discreta. A principal funcionalidade do AIlert é o "Modo Camaleão", que adapta a interface da aplicação conforme o nível de risco detectado clicando na única palavra em rosa no texto , garantindo segurança e discrição para os usuários em situações de vulnerabilidade.
 
 ## Funcionalidades 🌟
 
@@ -38,5 +44,8 @@ Contribuições são bem-vindas! Para contribuir com o projeto, por favor siga a
 2. Crie uma branch para suas alterações (`git checkout -b minha-alteracao`). 
 3. Commit suas alterações (`git commit -am 'Adiciona nova funcionalidade'`). 
 4. Envie para a branch (`git push origin minha-alteracao`). 
-5. Abra um Pull Request. 
+5. Abra um Pull Request.
 
+## AIlert no ar 📡
+
+https://ailert.vercel.app/index.html
