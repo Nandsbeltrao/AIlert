@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    color: white;
+    position: relative; 
+    overflow: hidden; 
+}
+
+header h1 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 5rem; 
+    margin-bottom: 1rem ;
+    color: white;
+    text-align: center; 
+    position: relative; 
+    z-index: 7; 
+}
+
+header p {
+    font-family: "Poppins", sans-serif;
+    width: 75vw;
+    text-align: center;
+    margin-bottom: 9rem;
+    margin-top: -1rem;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    z-index: 6;
+}
+
+header a{
+    margin: 0 10px; 
+    text-decoration: none; 
+    color:#fd37bb;
+    pointer-events: auto;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem; 
+}
+
+section input {
+    width: 30rem;
+    border: none;
+    padding: 0.8rem 3rem; 
+    border-radius: 3rem; 
+    margin-top: -9rem;
+    margin-bottom: 1rem; 
+    color: gray; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+    z-index: 6;
+  }
+
+section button {
+    padding: 0.5rem 3rem; 
+    border: none; 
+    border-radius: 10rem; 
+    background-color: #0334d6;
+    color: #F5F7F8;
+    font-family: "Poppins", sans-serif; 
+    font-size: 0.9rem; 
+    cursor: pointer; 
+    z-index: 4;
+}
+
+  
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    opacity: 0;
+    animation: pulse_4923 4s infinite linear;
+    border: 6px solid #00249E;
+    box-shadow: 1px 3px 8px #FF420F, 2px 3px 8px #FF00A8,0px 0px 5px #FFB200 ;
+    filter: blur(5px); 
+    z-index: 0; 
+}
+
+.circle:nth-child(1) {
+    animation-delay: .2s;
+}
+
+.circle:nth-child(2) {
+    animation-delay: .4s;
+}
+
+.circle:nth-child(3) {
+    animation-delay: .8s;
+}
+
+.circle:nth-child(4) {
+    animation-delay: 1s;
+}
+
+@keyframes pulse_4923 {
+    0% {
+        opacity: 0.0;
+        width: 0px;
+        height: 0px;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    10% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(2);
+    }
+
+    100% {
+        opacity: 0.0;
+        width: 900px;
+        height: 900px;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.resultado {
+    width: 60rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: -8rem; 
+    padding: 2rem; 
+    border-radius: 1rem; 
+    z-index: 6;
+}
+
+.resultadosItens {
+    background: rgba(106, 106, 107, 0.322); 
+    border-radius: 1rem; 
+    padding: 3rem; 
+    margin-bottom: 2rem; 
+    box-shadow: 0 2px 4px #6302ff; /* Sombra leve */
+    z-index: 6;
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.resultadosItens h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem; 
+    color: white; 
+    margin-top: -1.4rem;
+    margin-bottom: 1rem;
+}
+
+.paragrafo{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.paragrafo2{
+    font-family:"Poppins", sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+
+.links {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #b10277; 
+    
+}
+
+.resultadosItens a:hover {
+    text-decoration: underline; 
+}
+
+footer{
+    background-color: #0c0c0c; 
+    color: white; 
+    text-align: center; 
+    padding: 1.3rem; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif; 
+}
+
+footer a{
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: white;
+}
+
+
+
+
+

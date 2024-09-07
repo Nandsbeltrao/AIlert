@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AIlert</title>
+</head>
+
+<body>
+    <header>
+        <h1>AIlert</h1>
+        <p>Explore com confiança. O AIlert foi projetado para oferecer uma experiência personalizada, mantendo você sempre atualizado de forma segura e tranquila. Conte com uma navegação que entende suas necessidades,  sem<a href="./camuflado.html">complicações.</a></p>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Deixe a curiosidade guiar você" id="campo-busca">
+            <button onclick="busca()">Pesquisar</button>
+        </section>
+
+        <section>
+            <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+        </section>
+
+        <section class="resultado" id="pesquisa">    
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2024 © AIlert. Todos os direitos reservados.</p>
+    <p>
+        Conecte-se conosco:
+        <a href="#">Facebook</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Instagram</a>
+    </p>
+    <p>
+        <a href="#">Política de Privacidade</a> |
+        <a href="#">Termos de Uso</a>
+    </p>
+    </footer>
+    
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
