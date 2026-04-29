@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -9,4 +13,50 @@ body{
   color: #E2E0F0;
   font-family: 'Arial', sans-serif;
   min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+header {
+  width: 100%;
+  background-color: #0F0F14;
+  padding: 16px 20px;
+  border-bottom: 0.5px solid #1e1e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #C084FC;
+  flex-shrink: 0;
+}
+
+.logo span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #E2E0F0;
+}
+
+header button {
+  background: #1e1e2e;
+  border: 0.5px solid #2a2a3a;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #888;
+  cursor: pointer;
 }

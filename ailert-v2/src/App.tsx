@@ -1,7 +1,10 @@
+import Header from './components/header'
+
+
 function App() {
   return(
-    <div>
-      <h1>AIlert</h1>
+    <div className='app'>
+      <Header />
     </div>
   )
 
