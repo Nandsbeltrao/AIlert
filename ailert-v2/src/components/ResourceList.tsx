@@ -1,5 +1,9 @@
 import ResourceCard from "./ResourceCard";
 
+interface Props {
+    search: string
+}
+
 const resources = [
     {
         id: 1,
@@ -18,7 +22,7 @@ const resources = [
     },
 
     {
-        id: 1,
+        id: 3,
         name: 'Ligue 180',
         description: 'Central de atendimento à mulher',
         action: 'ligar',
@@ -28,10 +32,13 @@ const resources = [
 
 ]
 
-function ResourceList() {
+function ResourceList({search}: Props) {
+    const filtered = resources.filter( resource =>
+        resource.name.toLowerCase().includes(search.toLowerCase())
+    )
     return(
         <div className="resource-list">
-            <p className="resource-list-label">recursos próximos</p>{resources.map(resource => (
+            <p className="resource-list-label">recursos próximos</p>{filtered.map(resource => (
                 <ResourceCard key={resource.id} resource={resource} />
             ))}
         </div>
