@@ -1,6 +1,8 @@
 import Header from './components/header'
 import Hero from './components/Hero'
 import Search from './components/Search'
+import ResourceList from './components/ResourceList'
+
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Search />
+      <ResourceList />
     </div>
   )
 

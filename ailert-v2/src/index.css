@@ -124,3 +124,65 @@ header button {
   color: #7C3AED;
   cursor: pointer;
 }
+
+.resource-list {
+  padding: 14px 20px 8px;
+}
+
+.resource-list-label {
+  font-size: 10px;
+  color: #555566;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+
+.resource-card {
+  background: #16161F;
+  border: 0.5px solid #2a2a3a;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resource-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #1e1e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.resource-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.resource-info {
+  flex: 1;
+}
+
+.resource-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #C8C6E0;
+  margin-bottom: 2px;
+}
+
+.resource-desc {
+  font-size: 10px;
+  color: #555566;
+}
+
+.resource-action {
+  font-size: 11px;
+  color: #7C3AED;
+  cursor: pointer;
+}
