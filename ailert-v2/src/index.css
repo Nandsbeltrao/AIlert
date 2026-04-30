@@ -186,3 +186,41 @@ header button {
   color: #7C3AED;
   cursor: pointer;
 }
+
+footer {
+  background: #16161F;
+  border-top: 0.5px solid #1e1e2e;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1D9E75;
+}
+
+.footer-text {
+  font-size: 10px;
+  color: #444455;
+}
+
+.footer-btn {
+  font-size: 10px;
+  color: #7C3AED;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
