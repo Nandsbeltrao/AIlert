@@ -224,3 +224,208 @@ footer {
   border: none;
   cursor: pointer;
 }
+
+
+.chameleon {
+  background: #1A0A2E;
+  min-height: 100vh;
+  padding: 0 8px;
+}
+
+.chameleon-topbar {
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.chameleon-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chameleon-logo-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #E040A0;
+}
+
+.chameleon-logo-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #F0D0FF;
+}
+
+.chameleon-calendar {
+  padding: 0 20px 16px;
+}
+
+.chameleon-month {
+  font-size: 13px;
+  font-weight: 500;
+  color: #F0D0FF;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.chameleon-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.chameleon-days span {
+  font-size: 9px;
+  color: #6B4A8A;
+  text-align: center;
+  padding: 2px 0;
+}
+
+.chameleon-nums {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.chameleon-nums span {
+  font-size: 10px;
+  color: #9977BB;
+  text-align: center;
+  padding: 2px 1px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.chameleon-nums .today {
+  background: #E040A0;
+  color: white;
+  font-weight: 500;
+}
+
+.chameleon-nums .period {
+  background: #7B1FA2;
+  color: #F0D0FF;
+}
+
+.chameleon-nums .fertile {
+  background: #2D1A4A;
+  color: #C084FC;
+}
+
+.chameleon-nums .predicted {
+  border: 0.5px solid #E040A0;
+  color: #E040A0;
+}
+
+.chameleon-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 0 20px 16px;
+}
+
+.chameleon-stat {
+  background: #2D1A4A;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.stat-label {
+  font-size: 9px;
+  color: #8855AA;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F0D0FF;
+}
+
+.stat-sub {
+  font-size: 9px;
+  color: #6B4A8A;
+  margin-top: 2px;
+}
+
+
+.chameleon-logs {
+  padding: 0 20px 16px;
+}
+
+.chameleon-logs-label {
+  font-size: 9px;
+  color: #6B4A8A;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+
+.chameleon-log-btn {
+  background: #2D1A4A;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.log-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.log-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.log-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #D0A0F0;
+  margin-bottom: 2px;
+}
+
+.log-desc {
+  font-size: 10px;
+  color: #6B4A8A;
+}
+
+
+@keyframes pulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.logo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #C084FC;
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+
+.chameleon-logo-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #E040A0;
+  animation: pulse 2s infinite;
+}

@@ -10,11 +10,11 @@ function Footer({ isCamouflage, onToggle }: Props) {
             <div className="footer-left">
                 <div className="footer-dot"></div>
                 <span className="footer-text">
-                    modo camaleão: {isCamouflage ? 'ativo' : 'inativo'}
+                    Modo Camaleão: {isCamouflage ? 'Ativo' : 'Inativo'}
                 </span>
             </div>
             <button className="footer-btn" onClick={onToggle}>
-                {isCamouflage ? 'desativar' : 'ativar'}
+                {isCamouflage ? 'Desativar' : 'Ativar'}
             </button>
         </footer>
     )

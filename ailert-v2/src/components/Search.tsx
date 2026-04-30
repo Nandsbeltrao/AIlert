@@ -14,10 +14,10 @@ function Search({ search, setSearch }: Props) {
         onChange={(e) => setSearch(e.target.value)}
       />
       <div className="search-tags">
-        <span className="tag">emergência</span>
-        <span className="tag">apoio emocional</span>
-        <span className="tag">jurídico</span>
-        <span className="tag">abrigo</span>
+        <span className="tag">Emergência</span>
+        <span className="tag">Apoio emocional</span>
+        <span className="tag">Jurídico</span>
+        <span className="tag">Abrigo</span>
       </div>
     </div>
   )

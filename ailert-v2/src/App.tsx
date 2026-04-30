@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Search from './components/Search'
 import ResourceList from './components/ResourceList'
 import Footer from './components/Footer'
+import ChameleonMode from './components/ChameleonMode'
 
 
 
@@ -15,6 +16,10 @@ function App() {
 
   const handleToggle = () => {
     setIsCamouflage(!isCamouflage)
+  }
+
+  if (isCamouflage) {
+    return <ChameleonMode onExit={handleToggle} />
   }
 
   return(
