@@ -1,5 +1,5 @@
 interface Resource {
-    id: number
+    id: string
     name: string
     description: string
     action: string 
