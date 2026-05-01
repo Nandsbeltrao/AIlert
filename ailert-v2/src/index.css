@@ -429,3 +429,10 @@ footer {
   background: #E040A0;
   animation: pulse 2s infinite;
 }
+
+.resource-loading {
+  font-size: 11px;
+  color: #7C3AED;
+  padding: 8px 0;
+  text-align: center;
+}
