@@ -28,7 +28,7 @@ npm run dev
 
 ## Live
 
-[ailert.vercel.app](https://ailert.vercel.app)
+[ailert.vercel.app](https://ailert-br.vercel.app/)
 
 ## Author
 
